@@ -1,0 +1,34 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>deps-with-nbm-file-type</artifactId>
+  <version>1.0.0</version>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.example.abcd</groupId>
+      <artifactId>a</artifactId>
+      <version>1.0.0</version>
+      <type>nbm-file</type>
+    </dependency>
+    <dependency>
+      <groupId>org.example.abcd</groupId>
+      <artifactId>b</artifactId>
+      <version>1.0.0</version>
+      <type>nbm-file</type>
+    </dependency>
+    <dependency>
+      <groupId>org.example.abcd</groupId>
+      <artifactId>c</artifactId>
+      <version>1.0.0</version>
+      <type>nbm-file</type>
+    </dependency>
+    <dependency>
+      <groupId>org.example.abcd</groupId>
+      <artifactId>d</artifactId>
+      <version>1.0.0</version>
+      <type>nbm-file</type>
+    </dependency>
+  </dependencies>
+
+</project>

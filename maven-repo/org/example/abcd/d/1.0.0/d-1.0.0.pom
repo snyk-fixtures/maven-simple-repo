@@ -1,0 +1,18 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example.abcd</groupId>
+  <artifactId>d</artifactId>
+  <version>1.0.0</version>
+
+  <!-- d@1.0.0 depends on c@1.0.0 (which depends on b@1.0.0 - which depends on a@1.0.0) -->
+
+  <dependencies>
+    <dependency>
+      <groupId>org.example.abcd</groupId>
+      <artifactId>c</artifactId>
+      <version>1.0.0</version>
+      <type>pom</type>
+    </dependency>
+  </dependencies>
+
+</project>
